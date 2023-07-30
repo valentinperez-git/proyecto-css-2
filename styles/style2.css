@@ -1,0 +1,45 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar{
+    width: 100%;
+    background: brown;
+    overflow: auto;
+}
+
+.navbar a{
+    float: left;
+    padding: 12px;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: green;
+}
+
+.active{
+    background-color: green;
+}
+
+.responsive{
+    display: none;
+}
+
+@media(max-width:600px){
+    .resposive{
+        display: block;
+        float: right;
+        padding: 12px;
+    }
+    a{
+        display: none;
+    }
+}
+
+.introduccion{
+    text-align: center;
+    margin: 0 65%;
+
+}
